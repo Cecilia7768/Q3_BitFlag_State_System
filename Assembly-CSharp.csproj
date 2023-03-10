@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AA16E40E-A819-7D90-FB4D-FC9D687BF89E}</ProjectGuid>
+    <ProjectGuid>{8078D518-9990-8F26-0DD6-1DAB7D846452}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Data.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\HPSliders.cs" />
     <Compile Include="Assets\Scripts\Pool.cs" />
@@ -68,7 +69,6 @@
     <Compile Include="Assets\Scripts\Enums.cs" />
     <Compile Include="Assets\Scripts\EnemyUI.cs" />
     <Compile Include="Assets\Scripts\DataProcessing.cs" />
-    <Compile Include="Assets\Scripts\Data.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -704,7 +704,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UniRx.csproj">
-      <Project>{7B061105-8DC7-E66F-74CE-8AADE090EB5E}</Project>
+      <Project>{10258E97-1D7E-997F-0948-0CD2F2CAD7FF}</Project>
       <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>
